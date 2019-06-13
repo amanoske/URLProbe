@@ -21,8 +21,6 @@ public class URLProbe
 	DataInputStream in = new DataInputStream(System.in);	
 	HashMap<String,String> tried = new HashMap<String,String>();
 	Random generator = new Random();
-
-	System.out.println("Okay, LFG.");
 	
 	trying: for(int i = 0; i < numTimes; i++)
 	{
