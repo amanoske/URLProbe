@@ -43,7 +43,7 @@ public class URLProbe
 			while((trace = in.readLine()) != null)
 			{
 				#its a hit!
-				if(trace.contains(success) 
+				if(trace.contains(success)) 
 				{
 					tried.add(attemptMe,"");
 					System.out.println("Key found! Navigate to here: "+ searchURL[0]+attemptMe+searchURL[1]);
